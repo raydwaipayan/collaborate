@@ -1,30 +1,15 @@
-# Learn Rollup.js
+# Collaborate
 
-This is an example project to accompany a tutorial on using [Rollup](http://rollupjs.org/).
+This is an project to build a multi user online editor based on Prose Mirror
 
-See the video of how this was made at https://code.lengstorf.com/learn-rollup-js/
+The project uses rollup js to compile es6 modules.
 
-## Quickstart
+## Deployment Steps
+### Build
+```npm run build```
 
-``` sh
-# Clone the repo
-git clone git@github.com:jlengstorf/learn-rollup.git
+### Client deploy
+```http-server -p 3000 build```
 
-# Move into the repo
-cd learn-rollup/
-
-# Install dependencies
-npm install
-
-# Start the watcher
-npm run watch
-```
-
-## Alternative Configurations
-
-- [Default configuration (as built in the video)](https://github.com/jlengstorf/learn-rollup/)
-- [Simple Node server for development using Express](https://github.com/jlengstorf/learn-rollup/tree/alt-config/express)
-- [Extra configuration to support React](https://github.com/jlengstorf/learn-rollup/tree/alt-config/react)
-- [Extra configuration with `rollup-plugin-livereload`](https://github.com/jlengstorf/learn-rollup/tree/alt-config/rollup-plugin-livereload)
-
-
+### Server deploy
+```node src/server/start.js```
