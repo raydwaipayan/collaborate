@@ -39,7 +39,7 @@ export default {
     replace({
       exclude: 'node_modules/**',
       ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
-      BASE_URL: JSON.stringify('http://127.0.0.1:8080')
+      BASE_URL: 'http://dev.bnbr.me:8000'
     }),
     (process.env.NODE_ENV === 'production' && uglify()),
   ],
