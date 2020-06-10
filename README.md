@@ -8,8 +8,5 @@ The project uses rollup js to compile es5 modules and bundle them up.
 ### Build
 ```npm run build```
 
-### Client deploy
-```http-server -p 3000 build```
-
-### Server deploy
-```node src/server/start.js```
+### Deploy client and server
+```node start.js```
