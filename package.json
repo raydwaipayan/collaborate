@@ -4,6 +4,7 @@
   "description": "This is a build for prosemirror",
   "main": "build/js/main.min.js",
   "scripts": {
+    "start": "node start.js",
     "build": "rollup -c",
     "dev": "rollup -c --watch",
     "reload": "livereload 'build/'",

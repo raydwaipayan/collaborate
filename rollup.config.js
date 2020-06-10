@@ -39,8 +39,9 @@ export default {
     replace({
       exclude: 'node_modules/**',
       ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
-      BASE_URL: 'http://dev.bnbr.me:8000'
+      BASE_URL: 'https://dev.bnbr.me/collab'
     }),
-    (process.env.NODE_ENV === 'production' && uglify()),
+    //(process.env.NODE_ENV === 'production' && uglify()),
+    uglify(),	  
   ],
 };

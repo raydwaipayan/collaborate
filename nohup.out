@@ -1,0 +1,78 @@
+Collab demo server listening on 8000
+Error: Invalid version 169
+    at Instance.checkVersion (/root/collaborate/src/server/instance.js:73:17)
+    at Instance.getEvents (/root/collaborate/src/server/instance.js:83:10)
+    at handle (/root/collaborate/src/server/server.js:140:19)
+    at finish (/root/collaborate/src/server/server.js:53:34)
+    at Object.router.add.args [as handler] (/root/collaborate/src/server/server.js:67:7)
+    at routes.some.route (/root/collaborate/src/server/route.js:47:13)
+    at Array.some (<anonymous>)
+    at Router.resolve (/root/collaborate/src/server/route.js:42:24)
+    at exports.handleCollabRequest (/root/collaborate/src/server/server.js:10:17)
+    at Server.createServer (/root/collaborate/start.js:28:13)
+Error: Invalid version 169
+    at Instance.checkVersion (/root/collaborate/src/server/instance.js:73:17)
+    at Instance.getEvents (/root/collaborate/src/server/instance.js:83:10)
+    at handle (/root/collaborate/src/server/server.js:140:19)
+    at finish (/root/collaborate/src/server/server.js:53:34)
+    at Object.router.add.args [as handler] (/root/collaborate/src/server/server.js:67:7)
+    at routes.some.route (/root/collaborate/src/server/route.js:47:13)
+    at Array.some (<anonymous>)
+    at Router.resolve (/root/collaborate/src/server/route.js:42:24)
+    at exports.handleCollabRequest (/root/collaborate/src/server/server.js:10:17)
+    at Server.createServer (/root/collaborate/start.js:28:13)
+Error: Invalid version 169
+    at Instance.checkVersion (/root/collaborate/src/server/instance.js:73:17)
+    at Instance.getEvents (/root/collaborate/src/server/instance.js:83:10)
+    at handle (/root/collaborate/src/server/server.js:140:19)
+    at finish (/root/collaborate/src/server/server.js:53:34)
+    at Object.router.add.args [as handler] (/root/collaborate/src/server/server.js:67:7)
+    at routes.some.route (/root/collaborate/src/server/route.js:47:13)
+    at Array.some (<anonymous>)
+    at Router.resolve (/root/collaborate/src/server/route.js:42:24)
+    at exports.handleCollabRequest (/root/collaborate/src/server/server.js:10:17)
+    at Server.createServer (/root/collaborate/start.js:28:13)
+Error: Invalid version 169
+    at Instance.checkVersion (/root/collaborate/src/server/instance.js:73:17)
+    at Instance.getEvents (/root/collaborate/src/server/instance.js:83:10)
+    at handle (/root/collaborate/src/server/server.js:140:19)
+    at finish (/root/collaborate/src/server/server.js:53:34)
+    at Object.router.add.args [as handler] (/root/collaborate/src/server/server.js:67:7)
+    at routes.some.route (/root/collaborate/src/server/route.js:47:13)
+    at Array.some (<anonymous>)
+    at Router.resolve (/root/collaborate/src/server/route.js:42:24)
+    at exports.handleCollabRequest (/root/collaborate/src/server/server.js:10:17)
+    at Server.createServer (/root/collaborate/start.js:28:13)
+Collab demo server listening on 8000
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Object.<anonymous> (/root/collaborate/start.js:32:4)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+Collab demo server listening on 8000
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-06-10T18_21_05_291Z-debug.log
+Collab demo server listening on 8000
+Collab demo server listening on 8000
+
+> collaborate@0.1.0 start /root/collaborate
+> node start.js
+
+Collab demo server listening on 8000
+
+> collaborate@0.1.0 start /root/collaborate
+> node start.js
+
+Collab demo server listening on 8000

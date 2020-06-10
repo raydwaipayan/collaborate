@@ -7,6 +7,7 @@ const port = 8000
 
 
 createServer((req, res) => {
+//  console.log(req.url);
   if(req.url === '/') {
     fs.readFile('./build/index.html','UTF-8',function(err,html){
       res.writeHead(200,{"Content-Type": "text/html"})
