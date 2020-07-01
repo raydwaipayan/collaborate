@@ -1,6 +1,6 @@
 .ProseMirror {
     position: relative;
-    height: 80vh;
+    min-height: 85vh;
   }
   
   .ProseMirror {

@@ -102,7 +102,7 @@ class Waiting {
     this.ip = ip
     this.finish = finish
     this.done = false
-    resp.setTimeout(1000 * 60 * 5, () => {
+    resp.setTimeout(1000 * 30, () => {
       this.abort()
       this.send(Output.json({}))
     })
@@ -135,7 +135,7 @@ function outputEvents(inst, data) {
 handle("GET", ["docs", null, "events"], (id, req, resp) => {
   let version = nonNegInteger(req.query.version)
   let commentVersion = nonNegInteger(req.query.commentVersion)
-
+	
   let inst = getInstance(id, reqIP(req))
   let data = inst.getEvents(version, commentVersion)
   if (data === false)
@@ -159,7 +159,7 @@ function reqIP(request) {
 
 // The event submission endpoint, which a client sends an event to.
 handle("POST", ["docs", null, "events"], (data, id, req) => {
-  let version = nonNegInteger(data.version)
+ let version = nonNegInteger(data.version)
   let steps = data.steps.map(s => Step.fromJSON(schema, s))
   let result = getInstance(id, reqIP(req)).addEvents(version, steps, data.comment, data.clientID)
   if (!result)
